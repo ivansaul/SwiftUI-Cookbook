@@ -6,6 +6,10 @@ description: >-
 
 # Add a Text View
 
+{% hint style="info" %}
+[**Source Code**](../../../src/SwiftUICookbook/SwiftUICookbook/TextSwiftUI.swift)![](../../.gitbook/assets/github-logo-icon.svg)
+{% endhint %}
+
 `Text` views are one of the most fundamental and frequently used components in any SwiftUI user interface. They enable you to display text in your app, serving as labels, titles, descriptions, and much more. SwiftUI's `Text` views are simple to use, require minimal code, and offer a wide range of customization options.
 
 ### Creating a Basic Text View
