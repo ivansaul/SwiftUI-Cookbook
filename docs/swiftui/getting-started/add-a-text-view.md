@@ -12,7 +12,7 @@ description: >-
 
 `Text` views are one of the most fundamental and frequently used components in any SwiftUI user interface. They enable you to display text in your app, serving as labels, titles, descriptions, and much more. SwiftUI's `Text` views are simple to use, require minimal code, and offer a wide range of customization options.
 
-### Creating a Basic Text View
+## Creating a Basic Text View
 
 To create a `Text` view, you use the `Text` initializer and provide the text you want to display. Here's an example:
 
@@ -28,11 +28,11 @@ struct TextSwiftUI: View {
 
 In the above code, the `TextSwiftUI` struct conforms to the `View` protocol. Within the `body` property, we return a `Text` view that displays "Hello, World!".
 
-### Customizing Text Views with Modifiers
+## Customizing Text Views with Modifiers
 
 One of the powerful features of SwiftUI is the ability to customize views using modifiers. Let's explore some of the common modifiers you can use with `Text` views.
 
-#### Font Style
+### Font Style
 
 You can change the font style of your text using the `.font()` modifier. Here's how to set the text to a headline style:
 
@@ -45,7 +45,7 @@ struct TextSwiftUI: View {
 }
 ```
 
-#### **Text Color**
+### Text Color
 
 To change the color of the text, use the `.foregroundColor()` modifier:
 
@@ -58,7 +58,7 @@ struct TextSwiftUI: View {
 }
 ```
 
-#### **Bold and Italic Text**
+### Bold and Italic Text
 
 To make the text bold or italic, use the `.bold()` and `.italic()` modifiers:
 
@@ -72,7 +72,7 @@ struct TextSwiftUI: View {
 }
 ```
 
-#### **Custom Font and Size**
+### Custom Font and Size
 
 If you want to use a custom font and size, you can do so with the `.font()` modifier combined with `.custom()`:
 
@@ -85,7 +85,7 @@ struct TextSwiftUI: View {
 }
 ```
 
-#### **Line Spacing and Alignment**
+### Line Spacing and Alignment
 
 Adjusting the line spacing and text alignment can enhance readability:
 
@@ -99,9 +99,9 @@ struct TextSwiftUI: View {
 }
 ```
 
-### Advanced Customizations
+## Advanced Customizations
 
-#### **Shadow**
+### Shadow
 
 Adding a shadow to your text can create a more dramatic effect:
 
@@ -114,7 +114,7 @@ struct TextSwiftUI: View {
 }
 ```
 
-#### **Strikethrough and Underline**
+### Strikethrough and Underline
 
 You can apply strikethrough or underline to your text:
 
@@ -128,7 +128,7 @@ struct TextSwiftUI: View {
 }
 ```
 
-### **Applying Multiple Modifiers**
+## Applying Multiple Modifiers
 
 Modifiers can be chained to apply multiple customizations:
 
@@ -146,6 +146,6 @@ struct TextSwiftUI: View {
 }
 ```
 
-### Screenshots
+## Screenshots
 
 <figure><img src="../../.gitbook/assets/TextSwiftUI.png" alt=""><figcaption><p>Add a Text View in SwiftUI</p></figcaption></figure>
