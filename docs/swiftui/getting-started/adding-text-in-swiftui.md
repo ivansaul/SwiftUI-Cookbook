@@ -4,7 +4,7 @@ description: >-
   various ways to customize it to fit your app's design requirements.
 ---
 
-# Add a Text View
+# Adding Text in SwiftUI
 
 {% hint style="success" %}
 [**Source Code**](../../../src/SwiftUICookbook/SwiftUICookbook/TextSwiftUI.swift) <img src="../../.gitbook/assets/github-logo-icon.svg" alt="" data-size="original">
