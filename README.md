@@ -4,7 +4,7 @@
 <div align="center">
 
 <h1 style="border-bottom: none">
-    <b><a href="https://github.com/ivansaul/SwiftUI-Cookbook">SwiftUI Cookbook</a></b>
+    <b><a href="https://ivansaul.gitbook.io/swiftui-cookbook">SwiftUI Cookbook</a></b>
 </h1>
 
 This repository is a growing collection of practical examples for developing applications using `SwiftUI`. As I continue to learn and explore SwiftUI, I will be updating this repository with new content and examples.
