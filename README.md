@@ -22,6 +22,8 @@ This repository is a growing collection of practical examples for developing app
 
 ---
 
+![Demo-Screenshot](https://github.com/ivansaul/SwiftUI-Cookbook/assets/15005581/df0ba700-603c-4cf3-a6fe-049ee32a8fcc)
+
 ## Content
 
 ### **Getting Started**
