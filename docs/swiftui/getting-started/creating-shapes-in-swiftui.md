@@ -42,6 +42,8 @@ struct ShapesSwiftUI: View {
 
 This code snippet creates an ellipse with a width of 300 points and a height of 200 points.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-11 at 8.56.28 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### Rectangle
 
 Creating a rectangle is just as simple:
@@ -57,6 +59,8 @@ struct ShapesSwiftUI: View {
 
 Here, a `Rectangle` shape is created with specified dimensions.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-11 at 8.57.35 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### Rounded Rectangle
 
 A `RoundedRectangle` shape allows you to set the corner radius for rounded corners:
@@ -71,6 +75,8 @@ struct ShapesSwiftUI: View {
 ```
 
 This creates a rectangle with rounded corners, where the corner radius is set to 30 points.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-11 at 8.59.28 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Customizing Shapes
 
@@ -90,6 +96,8 @@ struct ShapesSwiftUI: View {
 }
 ```
 
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-11 at 9.02.30 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### Stroke
 
 ```swift
@@ -104,7 +112,9 @@ struct ShapesSwiftUI: View {
 
 The first example fills the circle with red, and the second adds a red stroke to the rectangle.
 
-### Opacity and Shadow
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-11 at 9.04.55 PM.png" alt=""><figcaption></figcaption></figure>
+
+### Shadow
 
 You can adjust the opacity and add a shadow to shapes:
 
@@ -120,6 +130,8 @@ struct ShapesSwiftUI: View {
 ```
 
 This example creates an ellipse with blue fill, and a shadow.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-11 at 9.07.28 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Gradient Fills
 
@@ -142,3 +154,5 @@ struct ShapesSwiftUI: View {
 ```
 
 Here, we apply a linear gradient to a rounded rectangle.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-11 at 9.09.22 PM.png" alt=""><figcaption></figcaption></figure>
