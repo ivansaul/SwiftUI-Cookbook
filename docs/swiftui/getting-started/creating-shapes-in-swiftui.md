@@ -25,6 +25,14 @@ struct ContentView: View {
 
 In this example, we create a `Circle` shape and set its frame to 200x200 points.
 
+<details>
+
+<summary>Preview</summary>
+
+<img src="../../.gitbook/assets/Screenshot 2024-06-11 at 8.55.04 PM.png" alt="" data-size="original">
+
+</details>
+
 ### Ellipse
 
 The `Ellipse` shape can be created similarly, and it automatically adjusts its aspect ratio based on the frame provided:
