@@ -4,3 +4,4 @@
 
 * [Getting Started](README.md)
   * [Add a Text View](swiftui/getting-started/add-a-text-view.md)
+  * [Creating Shapes](swiftui/getting-started/creating-shapes.md)
