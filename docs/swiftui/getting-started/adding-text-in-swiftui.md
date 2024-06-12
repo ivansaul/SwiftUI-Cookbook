@@ -1,9 +1,3 @@
----
-description: >-
-  In this guide, we will cover the basics of creating a Text view and explore
-  various ways to customize it to fit your app's design requirements.
----
-
 # Adding Text in SwiftUI
 
 {% hint style="success" %}
