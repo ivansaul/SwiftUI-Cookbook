@@ -15,7 +15,7 @@ The `Circle` shape is straightforward to create and use. Here's an example:
 ```swift
 import SwiftUI
 
-struct ContentView: View {
+struct ShapesSwiftUI: View {
     var body: some View {
         Circle()
             .frame(width: 200, height: 200)
@@ -32,7 +32,7 @@ In this example, we create a `Circle` shape and set its frame to 200x200 points.
 The `Ellipse` shape can be created similarly, and it automatically adjusts its aspect ratio based on the frame provided:
 
 ```swift
-struct ContentView: View {
+struct ShapesSwiftUI: View {
     var body: some View {
         Ellipse()
             .frame(width: 300, height: 200)
@@ -47,7 +47,7 @@ This code snippet creates an ellipse with a width of 300 points and a height of 
 Creating a rectangle is just as simple:
 
 ```swift
-struct ContentView: View {
+struct ShapesSwiftUI: View {
     var body: some View {
         Rectangle()
             .frame(width: 300, height: 200)
@@ -62,7 +62,7 @@ Here, a `Rectangle` shape is created with specified dimensions.
 A `RoundedRectangle` shape allows you to set the corner radius for rounded corners:
 
 ```swift
-struct ContentView: View {
+struct ShapesSwiftUI: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 30)
              .frame(width: 300, height: 200)
@@ -81,7 +81,7 @@ Shapes in SwiftUI can be customized with various modifiers to change their appea
 You can fill a shape with a color or add a stroke (border):
 
 ```swift
-struct ContentView: View {
+struct ShapesSwiftUI: View {
     var body: some View {
         Circle()
             .fill(.blue)
@@ -109,7 +109,7 @@ The first example fills the circle with red, and the second adds a red stroke to
 You can adjust the opacity and add a shadow to shapes:
 
 ```swift
-struct ContentView: View {
+struct ShapesSwiftUI: View {
     var body: some View {
         Ellipse()
             .fill(Color.green)
@@ -126,7 +126,7 @@ This example creates an ellipse with blue fill, and a shadow.
 SwiftUI also supports gradient fills for shapes:
 
 ```swift
-struct ContentView: View {
+struct ShapesSwiftUI: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 20)
             .fill(
