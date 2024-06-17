@@ -1,5 +1,9 @@
 # Data Transformation in Swift
 
+{% hint style="success" %}
+[**Source Code**](../../../src/Swift/DataTransformationInSwift.swift) <img src="../../.gitbook/assets/github-logo-icon.svg" alt="" data-size="original">
+{% endhint %}
+
 Swift offers a rich toolkit for manipulating collections of data. When it comes to transforming elements within a collection, four key functions shine: `map`, `flatMap`, `compactMap`, and `tryMap`. While they share similarities, each tackles a specific data transformation scenario. Let's delve into their functionalities and explore when to use each one effectively.
 
 ## `map`: The Versatile Transformer
