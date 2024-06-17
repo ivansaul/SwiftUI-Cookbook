@@ -1,4 +1,4 @@
-# if let vs guard let in swift
+# If Let vs Guard Let in Swift
 
 In Swift development, it's common to work with optionals, values that can be either `nil` or contain a value. To handle these optionals safely, Swift provides two powerful tools: `if let` and `guard let`. Although both are used to unwrap optionals, they have key differences in their usage and how they affect the flow of your code. In this article, we will explore these differences and discuss when it is more appropriate to use each one.
 
