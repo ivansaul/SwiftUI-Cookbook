@@ -9,4 +9,4 @@
 ## Swift
 
 * [Continued Learning](swift/continued-learning/README.md)
-  * [if let vs guard let in swift](swift/continued-learning/if-let-vs-guard-let-in-swift.md)
+  * [If Let vs Guard Let in Swift](swift/continued-learning/if-let-vs-guard-let-in-swift.md)
