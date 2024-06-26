@@ -5,7 +5,7 @@
 * [Getting Started](README.md)
   * [Adding Text in SwiftUI](swiftui/getting-started/adding-text-in-swiftui.md)
   * [Creating Shapes in SwiftUI](swiftui/getting-started/creating-shapes-in-swiftui.md)
-  * [Create a Tab Bar with TabView in SwiftUI](swiftui/readme/create-a-tab-bar-with-tabview-in-swiftui.md)
+  * [Create a Tab Bar with TabView in SwiftUI](swiftui/getting-started/create-a-tab-bar-with-tabview-in-swiftui.md)
 
 ## Swift
 
