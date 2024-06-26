@@ -2,7 +2,7 @@
 
 In SwiftUI, `TabView` is a powerful and flexible component that allows you to easily create a tab bar for navigating between multiple views. In this tutorial, we will explore how to use `TabView` to create a modern and fluid user experience.
 
-### Basic `TabView` Example
+## Basic `TabView` Example
 
 To start, let's look at a basic example of how to create a `TabView`.
 
@@ -15,7 +15,7 @@ TabView {
 
 In this example, we are simply adding two text views as tabs. Each view will become a tab within the `TabView`.
 
-### Adding Tabs to the Tab Bar
+## Adding Tabs to the Tab Bar
 
 To add visual elements and labels to the tabs, we use the `tabItem` modifier.
 
@@ -38,7 +38,7 @@ In this case, each tab includes an icon and text that will appear in the tab bar
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-06-25 at 9.05.17 PM.png" alt=""><figcaption><p>Adding Tabs to Tab Bar</p></figcaption></figure>
 
-### Changing the Tab Bar Appearance
+## Changing the Tab Bar Appearance
 
 We can further customize the appearance of the tab bar using the `tint` modifier.
 
@@ -89,11 +89,11 @@ In the example above, we change the background color of the tab bar to blue usin
 
 ### Navigating Between Tabs Programmatically
 
-To label tabs and set which one is displayed initially, we use the `tag` modifier and the `selection` binding.
+To change the selected tab, we need to set which one is displayed initially, we use the `tag` modifier and the `selection` binding.
 
 ```swift
 struct TabViewSwiftUI: View {
-    @State var selectedTab: Int = 2
+    @State var selectedTab: Int = 1
     var body: some View {
         TabView(selection: $selectedTab) {
             Text("Home Tab")
@@ -132,7 +132,7 @@ In this example, the tab with `tag(1)` will be displayed initially thanks to the
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-06-25 at 10.02.35 PM.png" alt=""><figcaption><p>Navigating Between Tabs</p></figcaption></figure>
 
-### Changing the Tab Bar Style
+## Changing the Tab Bar Style
 
 We can use the `tabViewStyle` modifier to apply a different style to the tab bar.
 
