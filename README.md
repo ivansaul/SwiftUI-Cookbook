@@ -33,6 +33,7 @@ This repository is a growing collection of practical examples for developing app
 - **Getting Started**
   - [Adding Text in SwiftUI][adding-text-in-swiftui]
   - [Creating Shapes in SwiftUI][creating-shapes-in-swiftui]
+  - [Create a Tab Bar with TabView in SwiftUI][create-a-tab-bar-with-tabview-in-swiftui]
 
 ### _Swift_
 
@@ -47,6 +48,7 @@ This repository is a growing collection of practical examples for developing app
 <!-- Getting Started -->
 [adding-text-in-swiftui]: https://ivansaul.gitbook.io/swiftui-cookbook/swiftui/getting-started/adding-text-in-swiftui
 [creating-shapes-in-swiftui]: https://ivansaul.gitbook.io/swiftui-cookbook/swiftui/getting-started/creating-shapes-in-swiftui
+[create-a-tab-bar-with-tabview-in-swiftui]: https://ivansaul.gitbook.io/swiftui-cookbook/swiftui/getting-started/create-a-tab-bar-with-tabview-in-swiftui
 
 <!-- Swift -->
 <!-- Swift Collections -->
