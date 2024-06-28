@@ -6,6 +6,8 @@
   * [Adding Text in SwiftUI](swiftui/getting-started/adding-text-in-swiftui.md)
   * [Creating Shapes in SwiftUI](swiftui/getting-started/creating-shapes-in-swiftui.md)
   * [Create a Tab Bar with TabView in SwiftUI](swiftui/getting-started/create-a-tab-bar-with-tabview-in-swiftui.md)
+* [Continued Learning](swiftui/continued-learning/README.md)
+  * [SwiftUI: How to Add Custom Fonts to Your App](swiftui/continued-learning/swiftui-how-to-add-custom-fonts-to-your-app.md)
 
 ## Swift
 
