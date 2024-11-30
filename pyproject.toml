@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "blog"
+version = "0.1.0"
+description = "A personal space to share thoughts and insights on Python, Dart, Flutter, Swift, SwiftUI, Linux, and everything programming."
+authors = ["ivansaul <ivansaul@noreply.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs-material = {extras = ["imaging"], version = "^9.5.46"}
+mkdocs-glightbox = "^0.4.0"
+mkdocs-git-revision-date-localized-plugin = "^1.3.0"
+mkdocs-git-committers-plugin-2 = "^2.4.1"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+aiohttp = "^3.11.8"
+aiofiles = "^24.1.0"
+python-dotenv = "^1.0.1"
+mypy = "^1.13.0"
+ruff = "^0.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff.lint]
+preview = true
+fixable = ["ALL"]
+select = ['E', 'F', 'W', 'I']
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"

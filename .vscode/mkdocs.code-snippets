@@ -1,0 +1,39 @@
+{
+    "Callout": {
+        "scope": "markdown",
+        "prefix": [
+            "mkdocs-callout",
+            "callout",
+        ],
+        "body": [
+            "!!! ${1|note,abstract,info,tip,success,question,warning,failure,danger,bug,example,quote|}${2: \"${3:Title}\"}",
+            "    ${4:Content}",
+        ],
+        "description": "Insert a MkDocs Material callout (e.g., note, warning, info)."
+    },
+    "Collapsible Callout": {
+        "scope": "markdown",
+        "prefix": [
+            "mkdocs-callout-collapsible",
+            "callout-collapsible",
+        ],
+        "body": [
+            "???${1:+} ${2|note,abstract,info,tip,success,question,warning,failure,danger,bug,example,quote|}${3: \"${4:Title}\"}",
+            "    ${5:Content}"
+        ],
+        "description": "Insert a collapsible MkDocs Material callout (e.g., note, warning, info)."
+    },
+    "Code Block": {
+        "scope": "markdown",
+        "prefix": [
+            "mkdocs-codeblock",
+            "codeblock",
+        ],
+        "body": [
+            "```${1|py,js,swift,bash,json,dart,yaml,console|} ${2:title=\"${3:sort.py}\"}",
+            "${4:print(\"Hello World\")}",
+            "```"
+        ],
+        "description": "Insert a code block."
+    },
+}

@@ -1,0 +1,139 @@
+#===================================================================================#
+#                                 Site Information                                  #
+#===================================================================================#
+site_name: Blog
+repo_name: ivansaul/blog
+site_url: https://ivansaul.github.io/blog
+repo_url: https://github.com/ivansaul/blog
+edit_uri: edit/master/docs/
+site_author: ivansaul
+site_description: A personal space to share thoughts and insights on Python, Dart, Flutter, Swift, SwiftUI, Linux, and everything programming.
+
+#===================================================================================#
+#                                Mkdocs Theme                                       #
+#===================================================================================#
+theme:
+  name: material
+  custom_dir: material/overrides
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.footer
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.view
+    - content.action.edit
+  icon:
+    annotation: material/plus-circle
+    repo: fontawesome/brands/git-alt
+    edit: material/file-document-edit-outline
+    view: material/file-document-arrow-right-outline
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+
+#===================================================================================#
+#                           Mkdocs Markdown Extensions                              #
+#===================================================================================#
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.blocks.caption
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+#===================================================================================#
+#                                Mkdocs Plugins                                     #
+#===================================================================================#
+plugins:
+  - search
+  - social:
+      enabled: !ENV [CI, false]
+      cards_layout: default/accent
+      cards_layout_options:
+        font_family: Roboto
+  - glightbox:
+      zoomable: false
+      draggable: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - git-committers:
+      repository: ivansaul/blog
+      branch: master
+
+#===================================================================================#
+#                                Mkdocs Extras                                      #
+#===================================================================================#
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/brands/github
+      link: https://github.com/squidfunk
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/squidfunk
+  analytics:
+    provider: google
+    property: G-Q74KJN7ZVT
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback!
+
+extra_css:
+  - assets/stylesheets/extras.css
+
+#===================================================================================#
+#                              Mkdocs Navigation Tree                               #
+#===================================================================================#
+nav:
+  - Swift:
+      - swift/index.md
+      - Continued Learning:
+          - swift/continued-learning/extensions-in-swift.md

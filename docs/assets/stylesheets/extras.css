@@ -1,0 +1,19 @@
+.md-typeset h1 {
+    font-weight: bold;
+}
+
+.md-typeset h2 {
+    font-weight: bold;
+}
+
+.md-typeset h3 {
+    font-weight: bold;
+}
+
+.md-typeset h4 {
+    font-weight: bold;
+}
+
+.md-typeset p {
+    font-weight: 500;
+}
