@@ -101,14 +101,12 @@ plugins:
 #===================================================================================#
 extra:
   social:
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/users/744755977684779038
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://github.com/ivansaul
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/squidfunk
+      link: https://www.linkedin.com/in/ivansaul
   analytics:
     provider: google
     property: G-Q74KJN7ZVT
