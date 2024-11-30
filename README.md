@@ -16,7 +16,7 @@ This repository is a growing collection of practical examples and tutorials for 
 ![GitHub forks](https://img.shields.io/github/forks/ivansaul/blog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[**`🌐 https://ivansaul.github.io/blog`**](https://ivansaul.gitbook.io/swiftui-cookbook)
+[**`🌐 https://ivansaul.github.io/blog`**](https://ivansaul.github.io/blog)
 
 <a href="https://discord.gg/tDvybtJ7y9">
     <img alt="Discord Server" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg">
