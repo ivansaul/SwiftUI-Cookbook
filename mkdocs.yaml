@@ -137,3 +137,7 @@ nav:
       - swift/index.md
       - Continued Learning:
           - swift/continued-learning/extensions-in-swift.md
+  - SwiftUI:
+      - swiftui/index.md
+      - Continued Learning:
+          - swiftui/continued-learning/how-to-add-custom-fonts-in-swiftui.md

@@ -10,5 +10,6 @@ Welcome to my personal blog, where I share my journey and insights into the worl
 <div class="grid cards" markdown>
 
 - [:material-language-swift: **Swift**](swift/index.md)
+- [:fontawesome-brands-swift: **SwiftUI**](swiftui/index.md)
 
 </div>
