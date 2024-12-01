@@ -2,22 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ivansaul.github.io/blog/</loc>
-         <lastmod>2024-11-30</lastmod>
+         <lastmod>2024-12-01</lastmod>
+    </url>
+    <url>
+         <loc>https://ivansaul.github.io/blog/linux/</loc>
+         <lastmod>2024-12-01</lastmod>
+    </url>
+    <url>
+         <loc>https://ivansaul.github.io/blog/linux/guides/opening-ports-on-oracle-cloud-instances/</loc>
+         <lastmod>2024-12-01</lastmod>
     </url>
     <url>
          <loc>https://ivansaul.github.io/blog/swift/</loc>
-         <lastmod>2024-11-30</lastmod>
+         <lastmod>2024-12-01</lastmod>
     </url>
     <url>
          <loc>https://ivansaul.github.io/blog/swift/continued-learning/extensions-in-swift/</loc>
-         <lastmod>2024-11-30</lastmod>
+         <lastmod>2024-12-01</lastmod>
     </url>
     <url>
          <loc>https://ivansaul.github.io/blog/swiftui/</loc>
-         <lastmod>2024-11-30</lastmod>
+         <lastmod>2024-12-01</lastmod>
     </url>
     <url>
          <loc>https://ivansaul.github.io/blog/swiftui/continued-learning/how-to-add-custom-fonts-in-swiftui/</loc>
-         <lastmod>2024-11-30</lastmod>
+         <lastmod>2024-12-01</lastmod>
     </url>
 </urlset>
