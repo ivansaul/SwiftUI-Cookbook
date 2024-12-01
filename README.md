@@ -39,3 +39,8 @@ This repository is a growing collection of practical examples and tutorials for 
 
 - **Continued Learning**
   - [How to Add Custom Fonts in SwiftUI](https://ivansaul.github.io/blog/swiftui/continued-learning/how-to-add-custom-fonts-in-swiftui)
+
+### Linux
+
+- **Guides**
+  - [Opening Ports on Oracle Cloud Instances](https://ivansaul.github.io/blog/linux/guides/opening-ports-on-oracle-cloud-instances)

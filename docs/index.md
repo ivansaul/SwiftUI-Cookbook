@@ -11,5 +11,6 @@ Welcome to my personal blog, where I share my journey and insights into the worl
 
 - [:material-language-swift: **Swift**](swift/index.md)
 - [:fontawesome-brands-swift: **SwiftUI**](swiftui/index.md)
+- [:fontawesome-brands-linux: **Linux**](linux/index.md)
 
 </div>
