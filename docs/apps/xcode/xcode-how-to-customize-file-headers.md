@@ -84,7 +84,7 @@ Now we need to put the `.plist` file in the right place, where Xcode will be abl
     cp IDETemplateMacros.plist ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
     ```
 
-### Use multiple `.plist` files
+## Use multiple `.plist` files
 
 We can use multiple `IDETemplateMacros.plist` files simultaneously, for example, we can have a global one in the following location:
 
