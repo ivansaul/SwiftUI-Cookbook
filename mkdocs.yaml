@@ -86,6 +86,7 @@ plugins:
       cards_layout: default/accent
       cards_layout_options:
         font_family: Roboto
+        background_color: "#0083e7"
   - glightbox:
       zoomable: false
       draggable: true
