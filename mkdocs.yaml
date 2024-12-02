@@ -143,3 +143,7 @@ nav:
       - linux/index.md
       - Guides:
           - linux/guides/opening-ports-on-oracle-cloud-instances.md
+  - Apps:
+      - apps/index.md
+      - Xcode:
+          - apps/xcode/xcode-how-to-customize-file-headers.md
