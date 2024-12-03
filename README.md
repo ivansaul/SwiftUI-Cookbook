@@ -37,6 +37,9 @@ This repository is a growing collection of practical examples and tutorials for 
 
 ### SwiftUI
 
+- **Getting Started**
+  - [SwiftUI Text](https://ivansaul.github.io/blog/swiftui/getting-started/swiftui-text)
+
 - **Continued Learning**
   - [How to Add Custom Fonts in SwiftUI](https://ivansaul.github.io/blog/swiftui/continued-learning/how-to-add-custom-fonts-in-swiftui)
 

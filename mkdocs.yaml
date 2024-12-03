@@ -138,6 +138,8 @@ nav:
           - swift/continued-learning/extensions-in-swift.md
   - SwiftUI:
       - swiftui/index.md
+      - Getting Started:
+          - swiftui/getting-started/swiftui-text.md
       - Continued Learning:
           - swiftui/continued-learning/how-to-add-custom-fonts-in-swiftui.md
   - Linux:
