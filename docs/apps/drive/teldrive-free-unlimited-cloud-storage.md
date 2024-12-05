@@ -9,6 +9,8 @@ description: How to get unlimited free cloud storage. Teldrive is a free and ope
 
 `Teldrive` is a free and open-source alternative to `Google Drive`, `Dropbox`, `OneDrive`, etc. It is a self-hosted file storage system that allows us to store our files in the cloud and share them with others. Teldrive uses the `Telegram API` for the free unlimited cloud storage.
 
+![alt text](../../assets/images/teldrive-free-unlimited-cloud-storage-image-6.png)
+
 ## Prerequisites
 
 Before starting, make sure you have active [Telegram](https://telegram.org/) and [Supabase](https://supabase.com/) accounts.
